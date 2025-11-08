@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home Decor Inspiration</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+
+  <header>
+    <h1>HomeStyle</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Gallery</a>
+      <a href="#">Blog</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Inspire Your Home</h2>
+    <p>Explore beautiful home decor ideas and create your dream space.</p>
+    <a href="#gallery" class="btn">Explore Gallery</a>
+  </section>
+
+
+  <section id="gallery">
+    <h2>Decor Gallery</h2>
+    <div class="filter-buttons">
+      <button onclick="filterItems('all')">All</button>
+      <button onclick="filterItems('living')">Living Room</button>
+      <button onclick="filterItems('bedroom')">Bedroom</button>
+      <button onclick="filterItems('kitchen')">Kitchen</button>
+    </div>
+
+  
+    <div class="gallery-grid">
+      <div class="item living"><img src="living room.jpg" alt="Living Room" /></div>
+      <div class="item bedroom"><img src="bedroom1.jpg" alt="Bedroom" /></div>
+      <div class="item kitchen"><img src="kitchen2.jpg" alt="Kitchen" /></div>
+      <div class="item living"><img src="living1.jpg" alt="Living Room" /></div>
+      <div class="item bedroom"><img src="bedroom2.jpg" alt="Bedroom" /></div>
+      <div class="item kitchen"><img src="kitchen1.jpg" alt="Kitchen" /></div>
+    </div>
+  </section>
+
+  
+  <footer>
+    <p>&copy; 2025 HomeStyle. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
